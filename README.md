@@ -3,7 +3,7 @@
 Para dar solución a la prueba Java 
 
 ## Backend -- Java
-Se desarrollo usando el IDE Intellij 2025.2 Community Edition. Es un proyecto gradle, version de java 21 y he usado Docker Desktop.
+Lo realice usando el IDE Intellij 2025.2 Community Edition. Es un proyecto gradle, version de java 21 y he usado Docker Desktop.
 ## Deployment
 En la raiz del proyecto se encuentra un docker-compose.yaml para levantar los dos microservicios y levantar kafka. 
 Si el proyecto es clonado desde este repositorio, se deben ejecutar los comandos clean build en cada proyecto para generar los .jar y luego si correr el docker.
@@ -16,7 +16,7 @@ movimiento-cuenta = localhost:8082/cuenta  --- localhost:8082/movimiento
 kafka queda por el 9092
 No se utiliza localhost para comunicación interna entre contenedores.
 
-## Comantarios
+## Comentarios
 He usado en ambos proyectos arquitectura microservicios y arquitectura hexagonal.
 Para la base de datos use H2
 Para la comunicacion asincrona use Apache kafka y Spring kafka
